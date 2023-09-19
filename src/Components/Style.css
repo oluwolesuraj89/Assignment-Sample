@@ -1,0 +1,124 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    background-color: #F1DBB6;
+}
+.main{
+    background-color: #F1DBB6;
+    width: 100%;
+    font-family: Marcellus;
+    padding: 1rem 5rem 0 6rem;
+    color: #473A33;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 5rem 0 6rem;
+    color: #473A33;
+    background-color: #F1DBB6;
+    font-size: 18px;
+}
+.header .headerLogo{
+    width: 240px;
+    height: 64px;
+    margin: 0 auto;
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: Marcellus;
+    /* padding: 0 7rem; */
+}
+.header .nav .MainNavigation, .header .nav .MyKb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav .MainNavigation i{
+    padding: 6px 0 0 5px;
+}
+.header .nav #search{
+    padding-right: 5px;
+}
+.header .nav a{
+    text-decoration: none;
+    color: #5B5C5E;
+    padding: 5px 10px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+.header .nav a:hover{
+   background-color: #473A33;
+   color: #F1DBB6;
+   border-radius: 15px;
+}
+
+.header .nav .MyKb button{
+    width: 79px;
+    height: 24px;
+    /* padding: 4px 10px 4px 11px; */
+    border-radius: 999px;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.header .nav .MyKb button:hover{
+    background-color: #473A33;
+    color: #F1DBB6;
+}
+/* .section{
+
+} */
+.section .content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content .HeroSection{
+    color: #473A33;
+    padding-right: 10rem;
+}
+.content .HeroSection .heading{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 77px;
+    padding-top: 2rem;
+    font-family: Marcellus;
+}
+.content .HeroSection .large{
+    font-size: 232px;
+    font-weight: 400;
+    line-height: 222px;
+    letter-spacing: 0.03em;
+    font-family: Marcellus;
+}
+.content .HeroSection p{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 34px;
+    padding-bottom: 2rem;
+    font-family: Josefin Sans;
+}
+.content .HeroSection button{
+    width: 190px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-family: Josefin Sans;
+}
+.content .HeroSection button:hover{
+    background-color: #473A33;
+    color: #F1DBB6;
+}
